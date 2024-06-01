@@ -20,7 +20,7 @@ async function generateVanityKeypairs(patterns, count) {
 }
 
 // Example: Generating 5 vanity keypairs containing patterns
-const patterns = ['usdcv2', 'v3USD', 'v2USD', 'USDv3','1111111', 'wso1111', 'BybitUSDC', 'So1ana', 'So1112', 'BybitUSD', 'So1an','So1111', 'v1USDC', 'wrapped', 'USDv1', '2025', 'USDv2'];
+const patterns = ['usdcv2', 'v3USD', 'v2USD', 'USDv3','1111111', 'wso1111', 'So1ana', 'So1112', 'BybitUSD', 'So1an','So1111', 'v1USDC', 'wrapped', 'USDv1', '2025', 'USDv2'];
 const count = 50;
 generateVanityKeypairs(patterns, count)
     .then(results => console.log('Total Vanity Keypairs Generated:', results.length))
